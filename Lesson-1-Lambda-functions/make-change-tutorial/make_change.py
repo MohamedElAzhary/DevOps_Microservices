@@ -10,11 +10,13 @@ def lambda_handler(event, context):
         :return: a response with the correct US change to make up the amount,
             formatted in JSON as the number of quarters/dimes/nickels/pennies.
     '''
-    
+    print("Lambda Function Started\n")
+    print("[Event]\n")
     print(event)
     
     # check that the request has some input body
     if 'body' in event:
+        print("[Event Body]\n"+event["body"]+'\n')
         event = json.loads(event["body"])
 
     # get float "amount"
