@@ -1,0 +1,7 @@
+all: cmd1 cmd2
+
+cmd1:
+	@echo "command1"
+
+cmd2:
+	@echo "command2"
