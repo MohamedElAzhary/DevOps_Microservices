@@ -12,11 +12,11 @@ def lambda_handler(event, context):
             the response is JSON formatted.'''
     
     # check that the request has some input body
-    if 'body' in event:
-        body = json.loads(event["body"])
+    
+    entity = event["entity"]
     
     # get the wikipedia "entity" from the body of the request
-    entity = body["entity"]
+    #entity = body["entity"]
     res = wikipedia.summary(entity, sentences=1) # first sentence, result
 
     # print statements
