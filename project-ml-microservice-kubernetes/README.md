@@ -1,4 +1,5 @@
-<include a CircleCI status badge, here>
+[![MohamedElAzhary](https://circleci.com/github/MohamedElAzharyDevOps_Microservices.svg?style=svg)]
+
 
 ## Project Overview
 
