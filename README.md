@@ -1,8 +1,4 @@
-[![MohamedElAzhary](https://circleci.com/gh/MohamedElAzhary/DevOps_Microservices.svg?style=svg)](https://app.circleci.com/pipelines/github/MohamedElAzhary/DevOps_Microservices)
-
-[![CircleCI](https://circleci.com/gh/ysonggit/microservice_ci.svg?style=svg)](https://circleci.com/gh/ysonggit/microservice_ci)
-
-
+[![MohamedElAzhary](https://circleci.com/gh/MohamedElAzhary/DevOps_Microservices.svg?style=shield)](https://app.circleci.com/pipelines/github/MohamedElAzhary/DevOps_Microservices)
 ## Project Overview
 
 In this project, you will apply the skills you have acquired in this course to operationalize a Machine Learning Microservice API. 
